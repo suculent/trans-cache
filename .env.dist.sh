@@ -1,0 +1,1 @@
+export COVERALLS_REPO_TOKEN=""

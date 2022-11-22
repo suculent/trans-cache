@@ -4,6 +4,7 @@
   "description": "Translation Cache",
   "main": "class.js",
   "scripts": {
+    "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
     "test": "jest"
   },
   "author": "Matej Sychra",
@@ -12,6 +13,7 @@
     "fs-json-store": "^8.0.1"
   },
   "devDependencies": {
+    "coveralls": "^3.1.1",
     "jest": "^29.3.1"
   },
   "repository": {
