@@ -1,7 +1,8 @@
 # TransCache
 
-[![CircleCI](https://dl.circleci.com/status-badge/img/gh/suculent/trans-cache/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/suculent/trans-cache/tree/main)
-[![Coverage Status](https://coveralls.io/repos/github/suculent/trans-cache/badge.svg?branch=main)](https://coveralls.io/github/suculent/trans-cache?branch=main)
+| Tests | Coverage | Security |
+|:------|:---------|:---------|
+|[![CircleCI](https://dl.circleci.com/status-badge/img/gh/suculent/trans-cache/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/suculent/trans-cache/tree/main)|[![Coverage Status](https://coveralls.io/repos/github/suculent/trans-cache/badge.svg?branch=main)](https://coveralls.io/github/suculent/trans-cache?branch=main)|[![Known Vulnerabilities](https://snyk.io/test/github/suculent/trans-cache/badge.svg)](https://snyk.io/test/github/suculent/trans-cache)
 
 Minimal translation cache module. It provides following functions:
 
