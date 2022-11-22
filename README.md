@@ -1,5 +1,7 @@
 # TransCache
 
+[![Coverage Status](https://coveralls.io/repos/github/suculent/trans-cache/badge.svg?branch=main)](https://coveralls.io/github/suculent/trans-cache?branch=main)
+
 Minimal translation cache module. It provides following functions:
 
 1. Initializes with target language (to use separate stores for each language)
