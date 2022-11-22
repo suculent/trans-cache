@@ -2,16 +2,24 @@
   "name": "trans-cache",
   "version": "1.0.0",
   "description": "Translation Cache",
-  "main": "index.js",
+  "main": "class.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "",
+  "author": "Matej Sychra",
   "license": "ISC",
   "dependencies": {
     "fs-json-store": "^8.0.1"
   },
   "devDependencies": {
     "jest": "^29.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suculent/trans-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/suculent/trans-cache/issues"
+  },
+  "homepage": "https://github.com/suculent/trans-cache#readme"
 }
