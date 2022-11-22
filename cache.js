@@ -6,23 +6,22 @@ module.exports = class TransCache {
 
         this.language = language;
 
-        let filename = __dirname + "/.transcache."+language+".json";
-        
+        let filename = __dirname + "/.transcache." + language + ".json";
+
         this.store = new Store({ file: filename });
+
+        this.cache = {};
     }
 
-    fetch(text) {
-        this.store.read(text)
-        .then((arg) => {
-            console.log("fetch:", arg);
-            return arg;
-        })
-        .catch((reason) => {
-            console.log("Exception", reason);
-        });
+    async fetch(text) {
+        let store = await this.store.read();        
+        console.log("fetch:", store);
+        if (store) this.cache = store;
+        return this.cache[text];
     }
 
-    save(key, value) {
-        this.store.write(key, value);
+    async save(key, value) {
+        this.cache[key] = value;
+        await this.store.write(this.cache);
     }
 }
