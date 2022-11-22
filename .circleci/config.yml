@@ -4,7 +4,7 @@ orbs:
   node: circleci/node@5.0.2
 
 jobs:
-  pipeline:
+  test:
     executor: node/default 
     steps:
       - checkout
@@ -19,6 +19,6 @@ jobs:
             - .
 
 workflows:
-  main-workflow:
+  test-before-release:
     jobs:
-      - pipeline
+      - test
