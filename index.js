@@ -5,6 +5,7 @@ module.exports = class TransCache {
     constructor(language) {
         this.language = language;
         let filename = __dirname + "/.transcache." + language + ".json";
+        console.log("Initializing translation cache with", filename);
         this.store = new Store({ file: filename }); // each instance is initialized with own language... singleton would require to have a language as param on each call
         this.cache = {}; // will be updated on first unsuccessful fetch
     }
