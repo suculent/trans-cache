@@ -1,1 +1,15 @@
-{ "Hello, world.": "Ahoj, světe." }
+{
+  "Hello, world.": "Ahoj, světe.",
+  "Confirmed": "Potvrzeno",
+  "Not Exploitable": "Nelze zneužít",
+  "Proposed Not Exploitable": "Patrně nelze zneužít",
+  "To Verify": "Nutná revize",
+  "pcidss": "PCI DSS v3.2",
+  "owasp_2013": "OWASP Top 10 2013",
+  "fisma_2014": "FISMA 2014",
+  "nist_sp800_53": "NIST SP 800-53",
+  "owasp_2017": "OWASP TOP 2017",
+  "owasp_mobile_2016": "OWASP Mobile Top 10 2016",
+  "asd_stig_410": "ASD STIG 4.10",
+  "owasp_api": "OWASP Top 10 API"
+}
