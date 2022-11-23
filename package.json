@@ -4,7 +4,7 @@
   "description": "Translation Cache",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage && cat ./coverage/lcov.in<o | coveralls"
+    "test": "jest --coverage && cat ./coverage/lcov.info | coveralls"
   },
   "author": "Matej Sychra",
   "license": "ISC",
