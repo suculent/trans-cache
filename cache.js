@@ -28,7 +28,7 @@ module.exports = class TransCache {
             return this.cache[text]; // return value for respective key... TODO: may warn on non-existing key after the store update
         } else {
             console.log("Translation failed for:", text);
-            return text;
+            return null;
         }
     }
 
@@ -36,4 +36,4 @@ module.exports = class TransCache {
         this.cache[key] = value; // save to memory first (may get bulk, but we want this)
         await this.store.write(this.cache); // whole cache is stored on change... optimization should be handled by the `fs-json-store` dependency
     }
-}
+};
