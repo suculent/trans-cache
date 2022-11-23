@@ -1,16 +1,20 @@
 {
   "name": "trans-cache",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Translation Cache",
-  "main": "class.js",
+  "main": "index.js",
   "scripts": {
-    "test": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "test": "jest --coverage && cat ./coverage/lcov.in<o | coveralls"
   },
   "author": "Matej Sychra",
   "license": "ISC",
   "dependencies": {
     "fs-json-store": "^8.0.1"
   },
+  "files": [
+    "index.js",
+    ".transcache.cz.json"
+  ],
   "devDependencies": {
     "coveralls": "^3.1.1",
     "jest": "^29.3.1"

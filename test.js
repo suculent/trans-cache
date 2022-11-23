@@ -3,7 +3,7 @@ let translated_string = "Ahoj, světe.";
 let random = Buffer.from(Math.random().toString()).toString("base64").substring(10,15);
 let target_language = random; // should be random in test
 
-const TransCache = require("./cache.js");
+const TransCache = require("./index.js");
 
 test('Fetch translation', async () => {
 
