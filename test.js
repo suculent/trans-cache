@@ -1,4 +1,4 @@
-'esversion: 8'
+'esversion: 8';
 
 let test_string = "Hello, world.";
 let translated_string = "Ahoj, světe.";
