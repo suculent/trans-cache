@@ -14,7 +14,7 @@ Minimal translation cache module. It provides following functions:
 
 ## Usage
 
-For usage example see `index.js`.
+For usage example see `test.js`.
 
 ## Internal details
 
